@@ -1,0 +1,20 @@
+{
+  "name": "scu-wfw-console",
+  "version": "0.0.1",
+  "main": "index.js",
+  "license": "GPL-3.0",
+  "author": {
+    "name": "xiaochuan",
+    "email": "w2239559319@outlook.com",
+    "url": "https://github.com/2239559319"
+  },
+  "files": [
+    "index.js"
+  ],
+  "description": "四川大学微服务打卡",
+  "keywords": [
+    "四川大学",
+    "微服务",
+    "打卡"
+  ]
+}
