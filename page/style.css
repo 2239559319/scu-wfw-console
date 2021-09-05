@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  min-height: 100vh;
+}
+#container {
+  min-height: 100vh;
+}
+.show {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  width: 400px;
+  padding: 20px;
+  padding-bottom: 10px;
+  line-height: 2;
+  font-size: 20px;
+  font-weight: 400;
+  border-radius: 4px;
+  color: black;
+  background: #fff;
+}
+.copy {
+  margin: 0 auto;
+  margin-top: 10px;
+  padding: 4px;
+  width: 90px;
+  border-radius: 4px;
+  background: rgb(255, 213, 213);
+  cursor: pointer;
+}
+.copy:hover {
+  background: rgb(255, 192, 192);
+}
+.addr {
+  display: flex;
+  border: 1px solid rgb(41, 41, 41);
+  border-radius: 4px;
+}
+.addr-name {
+  padding: 0 5px;
+  flex-shrink: 0;
+  background: rgb(187, 187, 187);
+  border-right: 1px solid rgb(41, 41, 41);
+}
+.addr-v {
+  padding: 0 5px;
+}
